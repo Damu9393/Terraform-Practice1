@@ -8,10 +8,7 @@ resource "aws_instance" "name" {
 
 }
 
-terraform {
-  backend "s3" {
-    bucket = "terrastatefiledamu"
-    key    = "terraform.tfstate"
-    region = "us-east-1"
-  }
+resource "aws_s3_bucket" "name" {
+    bucket= "multiclodnareshitveera"
+  
 }
