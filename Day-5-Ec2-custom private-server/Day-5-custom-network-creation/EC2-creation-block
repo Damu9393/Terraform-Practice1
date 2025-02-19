@@ -15,4 +15,3 @@ resource "aws_instance" "Terraform" {
    # key_name = "MyKeyPair"
    # subnet_id = "aws_subnet.terraform.id"
     #vpc_security_group_ids = {aws_security_group.allow.Terraform_security.id}
-#}

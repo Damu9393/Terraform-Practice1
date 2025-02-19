@@ -19,7 +19,7 @@ resource "aws_instance" "innova" {
  #}
 
 
-  lifecycle {
+  /*lifecycle {
     ignore_changes = [tags,instance_type] #This means that Terraform will never update the object but will be able to create or destroy it.
-  }
+  }*/
 }
